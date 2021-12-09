@@ -35,7 +35,7 @@ Well, the good news is that DevSecOps practices can help you manage most issues 
 Now, let’s look at the path that led to DevSecOps. This should help you better understand how software development and delivery models evolved over the years.
 
 The most popular model used for developing and delivering software resembles a waterfall and involves moving from one step to another in the following sequence:\
-\
+
 
 
 ![](https://d36ai2hkxl16us.cloudfront.net/course-uploads/e0df7fbf-a057-42af-8a1f-590912be5460/qbei99wmghkc-WaterfallModel.png)
@@ -236,8 +236,6 @@ Let’s now learn how to put it all together and create a DevSecOps pipeline. He
 
 First, take a look at a simple continuous integration pipeline that you would begin with when you get started with DevOps practices. The following diagram illustrates some common components of a CI pipeline.
 
-\
-
 
 ![](https://d36ai2hkxl16us.cloudfront.net/course-uploads/e0df7fbf-a057-42af-8a1f-590912be5460/tkrqmwyjllk1-ComponentsofaCIPipeline.png)
 
@@ -271,7 +269,6 @@ The following diagram depicts exactly such a pipeline that focuses on security a
 
 **DevSecOps Pipeline Visualized**
 
-&#x20;\
 Let’s analyze the additional security-related components of this pipeline. This is going to help you understand common DevSecOps practices.
 
 ### DevSecOps Practices
@@ -336,4 +333,4 @@ Learn more...
 * Read the ["Shift Left with AWS Codepipeline - Scanning every single code change"](https://logicbomb.medium.com/shift-left-with-aws-codepipleine-scanning-every-single-code-change-273bd74f32a2) article, by Avinash Jain
 * Watch the videos available in the [DevSecOps Learning playlist](https://www.youtube.com/playlist?list=PLQvhFTnS5hOIwcgRn7q2ctoqGbiE8Lhri) by Carnegie Mellon
 
-\
+
