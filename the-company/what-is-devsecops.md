@@ -6,7 +6,7 @@ coverY: 0
 
 # WHAT IS DEVSECOPS?
 
-
+### Overview
 
 By the end of this chapter, you should be able to:
 
@@ -16,7 +16,7 @@ By the end of this chapter, you should be able to:
 * Get introduced to the concept of defense-in-depth by learning about the layers of your application infrastructure.
 * Visualize a DevSecOps pipeline and learn about common DevSecOps practices.
 
-#### The Need for DevSecOps
+### The Need for DevSecOps
 
 To understand what DevSecOps is, let's begin with the question "_Why should we care about it?"_. What better way to answer this question than narrating a few stories which will help you understand the impact of what happens in its absence:
 
@@ -28,7 +28,9 @@ Do we need to emphasize more why it is crucial to incorporate security into the 
 
 Well, the good news is that DevSecOps practices can help you manage most issues similar to the ones mentioned above by helping you detect such risks early, make you aware of the impact, and push you to fix them before the issue blows out of proportion in a production environment. In some cases, these practices can even help you automatically mitigate concerns by patching/updating the application infrastructure. And this is why you should care about DevSecOps.
 
-## The Waterfall Model
+## The Path that Led to DevSecOps&#x20;
+
+### The Waterfall Model
 
 Now, let’s look at the path that led to DevSecOps. This should help you better understand how software development and delivery models evolved over the years.
 
@@ -43,14 +45,9 @@ The most popular model used for developing and delivering software resembles a w
 This model commonly results in longer deployment cycles, longer feedback loops, a significant amount of rework, and a slower pace of delivery overall.\
 
 
-## The Path that Led to DevSecOps
-
-Agile Methodologies
+### Agile Methodologies
 
 Henry Ford’s assembly line sped up the process of manufacturing, which was then iterated and perfected by Toyota with the so-called[ Toyota Production System (TPS)](https://en.wikipedia.org/wiki/Toyota\_Production\_System). This system undoubtedly transformed automobile manufacturing.
-
-\
-
 
 ![](https://d36ai2hkxl16us.cloudfront.net/course-uploads/e0df7fbf-a057-42af-8a1f-590912be5460/vdms38gzq88f-IterativeDevelopment.png)
 
@@ -58,27 +55,20 @@ Henry Ford’s assembly line sped up the process of manufacturing, which was the
 
 The principles and practices that evolved as part of this system, including "just-in-time" production, continuous feedback, and improvement ([Kaizen](https://en.wikipedia.org/wiki/Kaizen)), were then adapted by the wider manufacturing industry and, later, the software industry. This led to the development of [Lean IT](https://en.wikipedia.org/wiki/Lean\_IT) and, subsequently, to the creation of the [Agile Manifesto](https://agilemanifesto.org) in 2001, which resulted in development processes being sped up significantly.
 
-\
-DevOps
-------
-
 Using agile methodologies, developers were able to build software faster, in smaller chunks and in an iterative fashion, with less reworking. They were also able to fix issues and create patches much more quickly. However, traditional operations teams that had adopted the agile principles were, in fact, left out of the development loop. While developers were more concerned about the speed of delivery, for operations teams, reliability was of foremost importance, which created their reluctance toward frequent deployments, along with reduced preparedness and a lack of tooling to support the same.
 
-\
+### DevOps
+
+Using agile methodologies, developers were able to build software faster, in smaller chunks and in an iterative fashion, with less reworking. They were also able to fix issues and create patches much more quickly. However, traditional operations teams that had adopted the agile principles were, in fact, left out of the development loop. While developers were more concerned about the speed of delivery, for operations teams, reliability was of foremost importance, which created their reluctance toward frequent deployments, along with reduced preparedness and a lack of tooling to support the same.\
 
 
 ![](https://d36ai2hkxl16us.cloudfront.net/course-uploads/e0df7fbf-a057-42af-8a1f-590912be5460/bz2clqiku5kd-DevOpsModel.png)
 
 **DevOps Model**\
-
-
-\
-
-
 A set of principles, practices and tools which emerged to solve these problems came to be known as the DevOps practices. These ultimately resulted in the realization of the two conflicting goals of achieving faster delivery without compromising the reliability of the software. DevOps greatly relies on a set of automation tools that echo the assembly line in manufacturing. Today, DevOps represents the de facto practices used by organizations across the globe.\
 
 
-## DevSecOps
+### DevSecOps
 
 However, even with DevOps, the aspect of security remained unresolved. While you could improve the speed of deployment without compromising the reliability of the software using DevOps, the software development ended up either being slowed down due to security practices (which are implemented toward the end of the delivery pipeline) or having vulnerabilities that often leak into the production environment. DevOps could help patch these vulnerabilities quickly, but the ideal solution would have been to make the code secure without compromising the speed of delivery. This is what led to the creation of the principles, practices, and tools referred to as DevSecOps. DevSecOps is an organic extension of DevOps and follows a similar approach for implementation.
 
@@ -88,8 +78,6 @@ So, let us summarize why we need DevSecOps:
 * Traditional security cannot keep pace with it.
 
 Therefore, the solution is to incorporate security into the DevOps practices. This approach is what we know as DevSecOps.
-
-
 
 ## What is DevSecOps?
 
@@ -106,11 +94,7 @@ DevSecOps tries to fill the security gaps introduced due to either:
 
 DevSecOps attempts to embed security checks as part of the DevOps pPipeline instead of security being at the end of the pipeline stifling the pace of delivery.
 
-
-
-
-
-## Implementing DevSecOps
+### Implementing DevSecOps
 
 Below is a step-by-step recipe to implement DevSecOps in your organization:
 
@@ -120,9 +104,9 @@ Below is a step-by-step recipe to implement DevSecOps in your organization:
 4. Create dedicated, automated **SecOps pipelines** for infrastructure and operational security practices.
 5. Set up **runtime security monitoring**. Introducing preventive measures along with reactive measures, such as runtime monitoring, can help you create a holistic security plan.
 
+## Understanding Modern Applications
 
-
-## Microservices Architecture
+### Microservices Architecture
 
 We have come a long way from applications being packaged as a single software that would perform all the functionalities required—with the ability to connect to support services such as databases—which were also commonly known as monoliths. Monoliths are difficult to maintain and scale, and are less flexible.&#x20;
 
@@ -140,7 +124,7 @@ Some advantages of microservices include the following:&#x20;
 * **Flexibility**\
   Each service can be owned, designed, and developed by its own team, and each team would have the flexibility to use the language of their choice.
 
-## API/Queue-Based Communication
+### API/Queue-Based Communication
 
 When you break down services into different components and run them as separate microservices, you also need to consider how they would communicate with each other. Modern microservices applications communicate with each other using either of the following:
 
@@ -151,17 +135,13 @@ When you break down services into different components and run them as separate 
 
 Most modern applications use REST-based API communication to talk to each other.
 
-
-
-## Packaged and Distributed as Container Images
+### Packaged and Distributed as Container Images
 
 When it comes to packaging and running microservices applications, it is best to use container images. Containers offer a lightweight subsystem to package and run applications with very little (insignificant) overload, and are designed to run one application per container. This perfectly complements the concept of microservices.
 
 Container images are also optimized in terms of size by stripping away all the unnecessary components of the underlying root filesystem. Moreover, with the tooling available as part of the open container ecosystem, it is easy to package a microservices-based application into a container image and distribute it using a container registry such as Docker Hub.
 
-
-
-## Deployed and Run with Kubernetes
+### Deployed and Run with Kubernetes
 
 As an extension of container runtimes and packaging tools, such as Docker, certain systems were created to orchestrate containers on a multitude of servers. These systems are typically called container orchestration engines, a popular example of which is Kubernetes.
 
@@ -177,9 +157,9 @@ When you want to run containers at scale in a production-like environment, Kuber
 
 While microservices, API-based communications, and containerization make it easy to develop and run applications efficiently and at scale, these technologies also introduce new risks that need to be understood to enable the formulation of a holistic strategy for implementing DevSecOps. Some of these risks will be discussed next.
 
+## Application Security Risks
 
-
-## What Are the Risks with Modern Applications?
+### What Are the Risks with Modern Applications?
 
 Traditionally, when applications were built as monoliths and deployed in data centers, limiting physical access and setting up firewalls would provide sufficient security. With the advent of cloud computing, security measures have been expanded to further implement policies associated with virtual private clouds (VPCs), network access control (NAC), and identity and access management (IAM).
 
@@ -187,9 +167,7 @@ Running modern applications on the cloud—which are exposed as APIs, designed a
 
 Next, we will present some tales of caution that should help you put things in perspective.
 
-
-
-## API/Application Vulnerabilities
+### API/Application Vulnerabilities
 
 * A researcher found a way to take over a user account of any Uber driver ([Issue 49: Uber account takeover and the leaky Get API - API Security News](https://apisecurity.io/issue-49-uber-account-takeover-leaky-get-api/))
 * Researchers detected vulnerabilities with electric vehicle (EV) charging stations, using which they could obtain users' personal information and take control of the charging, possibly causing spikes in charge or mass attacks ([Issue 145: APIs and electric car charging stations, The Nuts and Bolts of OAuth 2.0 - API Security News](https://apisecurity.io/issue-145-apis-electric-car-charging-stations-nuts-bolts-oauth-2-0/))
@@ -197,9 +175,7 @@ Next, we will present some tales of caution that should help you put things in p
 
 You can read about many such vulnerabilities at [API Security Articles, News, Vulnerabilities & Best Practices](https://apisecurity.io).
 
-
-
-## Platform Vulnerabilities
+### Platform Vulnerabilities
 
 In the 2017 Equifax breach, private information such as credit ratings, of 147 million Americans was leaked due to a known vulnerability in a third-party software, i.e. Apache Struts. The root cause for the breach was attributed to this software not being updated for a few months, despite a fix being available ([2017 Equifax data breach - Wikipedia](https://en.wikipedia.org/wiki/2017\_Equifax\_data\_breach)).
 
@@ -213,9 +189,9 @@ The point here is that modern applications need a holistic and layered approach 
 
 From the web application security perspective, one important resource is the [Open Web Application Security Project (OWASP)](https://owasp.org), which is an online community that produces resources such as articles, methodologies, even tools and technologies in the field of application security.
 
+## Defense-in-Depth
 
-
-## Layers of an Onion Approach to Security
+### Layers of an Onion Approach to Security
 
 While analyzing DevSecOps, it is hardly useful to look at applications or infrastructure in isolation. The threat landscape changes when you add layers such as clouds or a container orchestrator. Therefore, you should examine all the layers involved and take steps to mitigate possible risks accordingly.
 
@@ -224,8 +200,6 @@ Consider the example of an application running in a Kubernetes environment that 
 ![](https://d36ai2hkxl16us.cloudfront.net/course-uploads/e0df7fbf-a057-42af-8a1f-590912be5460/l30bom517hfx-TheOnionApproach.png)
 
 **The Onion Approach**
-
-****
 
 Layers to consider when it comes to security
 
@@ -248,3 +222,118 @@ Layers to consider when it comes to security
 
     Since we are considering cloud native applications, it is vital to consider cloud security. The cloud layer can be secured using VPCs, network ACLs, firewalls/security groups, IAM systems, etc.
 
+## Creating and Implementing DevSecOps Pipelines
+
+### DevSecOps Practices and Delivery Pipeline
+
+Let’s now learn how to put it all together and create a DevSecOps pipeline. Here we assume that:
+
+* We are dealing with a modern, cloud native application.
+* This application is being packaged as a container image.
+* And it is being deployed with Kubernetes.
+
+### DevOps Pipeline
+
+First, take a look at a simple continuous integration pipeline that you would begin with when you get started with DevOps practices. The following diagram illustrates some common components of a CI pipeline.
+
+\
+
+
+![](https://d36ai2hkxl16us.cloudfront.net/course-uploads/e0df7fbf-a057-42af-8a1f-590912be5460/tkrqmwyjllk1-ComponentsofaCIPipeline.png)
+
+**Components of a CI Pipeline**
+
+The goal of this pipeline is to provide instant, continuous feedback.
+
+Pipeline Stages
+
+*   Close Build
+
+    This stage notifies us whether the change in the application code breaks the build. In a collaborative environment, it is of utmost importance to ensure that the change introduced by one developer does not result in a build failure, causing everyone else’s work to be impacted, as they would not be able to test their changes due to compilation failure. This is generally the very first step in the CI pipeline. In case of an application which does not need compilation (e.g., Python, Node.js, which are interpreted languages), the build stage generally checks whether dependencies are being resolved and installed correctly.
+*   Close Test
+
+    The next stage in the continuous integration pipeline is to run unit tests. DevOps introduces the principle of shifting tests to the left side of the application delivery process. This reduces the rework, as well as the cost of detecting and mitigating issues. The earlier the problems are detected, the easier, quicker, and cheaper they are to fix.
+*   Close Package
+
+    After ensuring the code has gone through essential sanity checks, it is time to package the application into an artifact and prepare it to be distributed. Artifacts are generally pushed to a common repository, from where they are distributed further for deployment.
+
+A typical DevOps delivery pipeline would also include the deployment stages, but this is a simplistic depiction of how you start with continuous integration.
+
+What is clearly missing in this DevOps pipeline? The security checks! That is the whole reason why we are here, discussing DevSecOps. Let’s now look at how this pipeline can evolve into something that we can call a DevSecOps pipeline.
+
+### Components of a DevSecOps Pipeline
+
+Let’s say we took the same pipeline described in the previous subsection, ran some security magic, and converted it into a DevSecOps pipeline. How would it look like?
+
+The following diagram depicts exactly such a pipeline that focuses on security at every stage of the delivery process.
+
+![](https://d36ai2hkxl16us.cloudfront.net/course-uploads/e0df7fbf-a057-42af-8a1f-590912be5460/j6rrzwephxjv-DevSecOpsPipelineVisualized.png)
+
+**DevSecOps Pipeline Visualized**
+
+&#x20;\
+Let’s analyze the additional security-related components of this pipeline. This is going to help you understand common DevSecOps practices.
+
+### DevSecOps Practices
+
+Common Security Practices to Embed into a DevSecOps Pipeline
+
+*   Close Secrets Scanning
+
+    It is important to ensure that no sensitive information, such as passwords, API keys, and cloud access credentials, are accidentally checked into the repository. Secrets scanners can be either run as pre-commit hooks (checks which are automatically run when a developer tries to commit to the repository) or can be enforced to run as the first step in the continuous integration pipeline, or both.
+*   Close Software Composition Analysis (SCA)
+
+    A majority of API-based application software today uses open source, third-party components, including libraries and frameworks. This forms your supply chain. How secure are the components incorporated in your software? Are there any vulnerabilities that you must patch? What are the security implications of using these components? Software Composition Analysis (SCA) attempts to detect such risks and provides you with inputs on how to mitigate them.
+*   Close Software Bill of Materials (SBOM)
+
+    This relates to Software Component Analysis. Standards such as CycloneDX help you generate a list of components akin to a bill of materials and reports on which components are in use; with respective versions, licenses, known vulnerabilities, etc. This helps add transparency, as well as aids understanding of the security posture of your application infrastructure.
+*   Close Static Application Security Testing (SAST)
+
+    The SAST stage helps you scan your application code and compare it against best practices, as well as detect any vulnerabilities in the code. This is a form of white box testing, whereas the tool being utilized has to be aware of the programming language being used and scan the code according to that. Like running unit tests, the goal here is to shift tests right, in this case within the context of security issues. The earlier the code issues are detected, the cheaper and faster it is to mitigate them.
+*   Close OSS License Checker
+
+    This stage is run as part of the DevSecOps pipeline to automatically detect the licenses for the components in use and compare it against the list of allowed licenses. As new components are added or existing components updated, there is a possibility of license terms being updated or new licenses being incorporated. This may have legal implications and can be incompatible with the organization’s policies. Having an automated process to detect such an event as part of the delivery pipeline is extremely useful.
+*   Close Container Image Linting and Scanning
+
+    As increasingly more applications are being packaged and deployed as containers, what gets packaged along with your container as part of the artifact becomes an important security consideration. It is very common to use a base image from the registry which is outdated, unpatched and introduces many vulnerabilities. It is also a good idea to check if you are following best practices while building the container image itself. Container image linting and scanning provides the feedback on both aspects: how safe is the image along with all the packages in it, as well as how well is your Dockerfile written to build that image. Running these scans as part of an automated pipeline can be very handy.
+*   Close GitOps-Based Secure Deployment
+
+    A commonly ignored part in the delivery process is deployment security. It is common to see a continuous integration platform such as Jenkins being provided with access to deployment systems with wider authorization, as well as to deployment systems provided to a wider audience. GitOps could help separate the deployment process from development and CI processes, keep the deployment code separate, and, at the same time, provide very limited access to systems such as Jenkins to trigger deployments only to limited applications. Since GitOps is built around Git-based workflows with support for pull requests, branching models, code reviews, etc., only the approved code is deployed to an environment.
+*   Close Dynamic Application Security Testing (DAST)
+
+    While SAST is a white box testing methodology, DAST takes a black box testing approach to detect security issues. Dynamic Application Security Testing (DAST) typically refers to automated penetration testing of web applications to detect issues wider than those present just in the application code. There could be multiple components which can form a chain of connections between a user and the application, which can be possibly exploited. This includes reverse proxies, network applications, caching services, databases, etc. To provide a holistic view of your application’s security posture, it is important to take an outsider’s view and simulate external attacks in addition to taking an insider’s view with SAST. DAST is run after the application has been deployed in a Dev/QA environment.
+
+While the practices described above form the core of the DevSecOps pipeline, it goes beyond this. DevSecOps is about taking a holistic approach and embedding security into all development and operational practices. This leads to additional processes, such as creating daily SecOps pipeline runs with compliance scans, using IDE plugins that detect security vulnerabilities, etc. True DevSecOps is about trying to follow the defense-in-depth approach. And despite following all these practices, it is important to acknowledge that you cannot guarantee 100% security, but the attempt is to get closer to it. And it is an iterative, continuous process!
+
+### How to Choose the Right Tools to Implement DevSecOps?
+
+So far, you learned why DevSecOps is needed and explored the risks related to modern applications. By now, you also hopefully came to an agreement that including key DevSecOps practices is an important aspect of the delivery pipeline. Now, you should consider the following two questions: _"Which tools should you use?"_ and _"How should you choose them?"_. While there are many commercial as well as open source solutions for each of the practices we discussed while visualizing the DevSecOps pipeline, there are common criteria that you can use to shortlist the tools.
+
+Tools included in the DevSecOps pipeline should be...
+
+*   Close Automatable
+
+    They should have support for API-based communication or, at a minimum, a command line interface which can be used to script tasks.
+*   Close Containerized
+
+    They should support being packaged as a container application. This enables them to be integrated with the continuous integration systems which often run projects with container-based agents.
+*   Close Free from licensing limitations
+
+    Many commercial applications have limitations on the number of scans, number of parallel scans, etc.
+*   Close Configurable
+
+    This is helpful to counter false negatives/false positives.
+
+Almost all tools recommended as part of this course are open source and available to use for free. However, you have to select the tools based on your application stack, organization goals, desired features, and availability of resources to maintain the tools.
+
+## Additional Resources
+
+Learn more...
+
+* Read the ["AWS-DevSecOps\_Factory"](https://github.com/jonrau1/AWS-DevSecOps-Factory) article on GitHub
+* Check out the [OWASP API Security Top 10](https://owasp.org/www-project-api-security/) list
+* Read the ["Everything You Need to Know about API Security in 2021"](https://www.pingidentity.com/en/company/blog/posts/2020/everything-need-know-api-security-2020.html) article, by Bernard Harguindeguy
+* Read the ["Shift Left with AWS Codepipeline - Scanning every single code change"](https://logicbomb.medium.com/shift-left-with-aws-codepipleine-scanning-every-single-code-change-273bd74f32a2) article, by Avinash Jain
+* Watch the videos available in the [DevSecOps Learning playlist](https://www.youtube.com/playlist?list=PLQvhFTnS5hOIwcgRn7q2ctoqGbiE8Lhri) by Carnegie Mellon
+
+\
