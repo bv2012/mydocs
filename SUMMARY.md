@@ -1,29 +1,33 @@
 # Table of contents
 
-* [What is MyProduct?](README.md)
+* [Welcome!](README.md)
+  * [Page 1](welcome/page-1/README.md)
+    * [Page 3](welcome/page-1/page-3.md)
+    * [Page 2](welcome/page-1/page-2.md)
+    * [Page 4](welcome/page-1/page-4.md)
+    * [Page 5](welcome/page-1/page-5.md)
 
-## Guides
+## LFS268
 
-* [Creating your first project](guides/creating-your-first-project.md)
-* [Creating your first task](guides/creating-your-first-task.md)
-* [Advanced permissions](guides/advanced-permissions.md)
-
-## Fundamentals
-
-* [Projects](fundamentals/projects.md)
-* [Members](fundamentals/members.md)
-* [Task Lists](fundamentals/task-lists.md)
-* [Tasks](fundamentals/tasks.md)
-
-## Use Cases
-
-* [For Designers](use-cases/for-designers/README.md)
-  * [Figma Integration](use-cases/for-designers/figma-integration.md)
-* [For Engineers](use-cases/for-engineers/README.md)
-  * [GitHub Integration](use-cases/for-engineers/github-integration.md)
-* [For Support](use-cases/for-support/README.md)
-  * [Intercom Integration](use-cases/for-support/intercom-integration.md)
-
-## Extras
-
-* [Keyboard Shortcuts](extras/keyboard-shortcuts.md)
+* [Chapter-00](lfs268/chapter-00/README.md)
+  * [Page 16](lfs268/chapter-00/page-16.md)
+  * [Page 15](lfs268/chapter-00/page-15.md)
+  * [Page 14](lfs268/chapter-00/page-14.md)
+  * [Page 8](lfs268/chapter-00/page-8.md)
+  * [Page 10](lfs268/chapter-00/page-10.md)
+* [Chapter-01](lfs268/chapter-01/README.md)
+  * [Page 13](lfs268/chapter-01/page-13.md)
+  * [Page 12](lfs268/chapter-01/page-12.md)
+  * [Page 11](lfs268/chapter-01/page-11.md)
+  * [Page 9](lfs268/chapter-01/page-9.md)
+* [Chapter-02](lfs268/chapter-02/README.md)
+  * [Page 19](lfs268/chapter-02/page-19.md)
+  * [Page 18](lfs268/chapter-02/page-18.md)
+  * [Page 17](lfs268/chapter-02/page-17.md)
+  * [Page 7](lfs268/chapter-02/page-7.md)
+* [Chapter-03](lfs268/chapter-03/README.md)
+  * [Page 23](lfs268/chapter-03/page-23.md)
+  * [Page 22](lfs268/chapter-03/page-22.md)
+  * [Page 21](lfs268/chapter-03/page-21.md)
+  * [Page 20](lfs268/chapter-03/page-20.md)
+  * [Page 6](lfs268/chapter-03/page-6.md)
