@@ -6,3 +6,4 @@
 
 * [WHAT IS DEVSECOPS?](the-company/what-is-devsecops/README.md)
   * [Setting Up DevSecOps Lab Environment](the-company/what-is-devsecops/setting-up-devsecops-lab-environment.md)
+  * [Building DevOps Pipeline](the-company/what-is-devsecops/building-devops-pipeline.md)
