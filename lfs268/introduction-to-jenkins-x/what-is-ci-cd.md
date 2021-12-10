@@ -1,0 +1,7 @@
+# What Is CI/CD
+
+Continuous Integration (CI) and Continuous Delivery (CD) encompass operating principles and best practices deployed by software teams to deliver software changes repeatedly and reliably. In simple words, these are the rules of thumb used by many successful organizations over a period of time.&#x20;
+
+Modern applications are built on many languages and tools. Software teams need mechanisms to integrate various changes frequently. Continuous Integration (CI) is a software practice that emphasizes continuous integration and validation of every single change. Various CI tools make it possible to automate CI processes. Continuous Delivery (CD), on the other hand, is the next logical step after Continuous Integration (CI). It focuses on automating the software delivery process in its entirety. By creating a pipeline-based workflow for different stages of the software delivery process, CD strives to standardize software delivery processes by removing manual errors. Together, CI and CD have made software delivery a first class citizen of the software development process and have increased the overall efficiency and reliability of the software release process.
+
+CI/CD tools provide implementations for CI/CD best practices. Some of the popular open source cloud-native CI/CD tools include Spinnaker, Argo CD, Tekton and Jenkins X. However, most of these tools do not check all the boxes when it comes to meeting the needs of a modern, fast-paced development organization. That’s where Jenkins X comes into play.
