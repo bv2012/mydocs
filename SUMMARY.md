@@ -47,12 +47,18 @@
 
 * [Running Jenkins on Kubernetes](lfs267-jenkins-essentials/running-jenkins-on-kubernetes/README.md)
   * [Installing Jenkins on Kubernetes](lfs267-jenkins-essentials/running-jenkins-on-kubernetes/installing-jenkins-on-kubernetes.md)
-  * [Jenkins Installation Using Helm](lfs267-jenkins-essentials/running-jenkins-on-kubernetes/jenkins-installation-using-helm.md)
+  * [Jenkins Installation Using Helm](lfs267-jenkins-essentials/page-19.md)
 * [JENKINS HIGH AVAILABILITY ON TRADITIONAL PLATFORMS](lfs267-jenkins-essentials/jenkins-high-availability-on-traditional-platforms/README.md)
   * [Setting up a Highly Available Jenkins Master On-Premise](lfs267-jenkins-essentials/jenkins-high-availability-on-traditional-platforms/setting-up-a-highly-available-jenkins-master-on-premise.md)
   * [Setting up Highly Available and Self-Healing Jenkins Master on AWS](lfs267-jenkins-essentials/jenkins-high-availability-on-traditional-platforms/setting-up-highly-available-and-self-healing-jenkins-master-on-aws.md)
   * [HA Jenkins on AWS](lfs267-jenkins-essentials/jenkins-high-availability-on-traditional-platforms/ha-jenkins-on-aws.md)
-  * [Page 1](lfs267-jenkins-essentials/jenkins-high-availability-on-traditional-platforms/page-1.md)
+* [SCALING JENKINS INFRASTRUCTURE WITH DYNAMIC BUILD AGENTS](lfs267-jenkins-essentials/scaling-jenkins-infrastructure-with-dynamic-build-agents/README.md)
+  * [Distributed Build Architecture](lfs267-jenkins-essentials/scaling-jenkins-infrastructure-with-dynamic-build-agents/distributed-build-architecture.md)
+  * [Distibuted Build Architecture](lfs267-jenkins-essentials/scaling-jenkins-infrastructure-with-dynamic-build-agents/distibuted-build-architecture.md)
+* [Page 1](lfs267-jenkins-essentials/page-1/README.md)
+  * [Page 19](lfs267-jenkins-essentials/page-1/page-19.md)
+  * [Page 2](lfs267-jenkins-essentials/page-1/page-2.md)
+  * [Page 3](lfs267-jenkins-essentials/page-1/page-3.md)
 
 ## LFS269 GitOps CD on K8s Flux
 
