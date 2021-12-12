@@ -52,6 +52,11 @@
 
 * [Page 20](lfs269-gitops-cd-on-k8s-flux/page-20.md)
 
+***
+
+* [Page 3](page-3.md)
+* [Page 2](page-2.md)
+
 ## LFS262 Implementing DevSecOps
 
 * [WHAT IS DEVSECOPS?](lfs262-implementing-devsecops/page-21.md)
@@ -68,3 +73,40 @@
   * [Key Practices to Mitigate Risks and Ensure Safety in the Supply Chain](lfs262-implementing-devsecops/securing-the-supply-chain-with-sca/key-practices-to-mitigate-risks-and-ensure-safety-in-the-supply-chain.md)
   * [Tools to Implement SCA](lfs262-implementing-devsecops/securing-the-supply-chain-with-sca/tools-to-implement-sca.md)
   * [Setting up Software Composition Analysis (SCA)](lfs262-implementing-devsecops/securing-the-supply-chain-with-sca/setting-up-software-composition-analysis-sca.md)
+
+***
+
+* [STATIC APPLICATION SECURITY TESTING (SAST)](static-application-security-testing-sast/README.md)
+  * [What is SAST?](static-application-security-testing-sast/what-is-sast.md)
+* [AUDITING CONTAINER IMAGES](auditing-container-images/README.md)
+  * [Auditing Container Images](auditing-container-images/auditing-container-images.md)
+* [SECURE DEPLOYMENT AND DYNAMIC APPLICATION SECURITY TESTING (DAST)](secure-deployment-and-dynamic-application-security-testing-dast/README.md)
+  * [Secure Deployments with GitOps](secure-deployment-and-dynamic-application-security-testing-dast/secure-deployments-with-gitops.md)
+  * [Secure Deployments with GitOps](secure-deployment-and-dynamic-application-security-testing-dast/secure-deployments-with-gitops-1.md)
+  * [What is ArgoCD](secure-deployment-and-dynamic-application-security-testing-dast/what-is-argocd.md)
+  * [Setup ArgoCD](secure-deployment-and-dynamic-application-security-testing-dast/setup-argocd.md)
+* [SYSTEM SECURITY AUDITING WITH IAC](system-security-auditing-with-iac/README.md)
+  * [Page 23](system-security-auditing-with-iac/page-23.md)
+  * [Page 22](system-security-auditing-with-iac/page-22.md)
+  * [Page 21](system-security-auditing-with-iac/page-21.md)
+  * [Page 18](system-security-auditing-with-iac/page-18.md)
+  * [Page 5](system-security-auditing-with-iac/page-5.md)
+  * [Page 4](system-security-auditing-with-iac/page-4.md)
+* [SECURING KUBERNETES DEPLOYMENTS](securing-kubernetes-deployments/README.md)
+  * [Page 27](securing-kubernetes-deployments/page-27.md)
+  * [Page 26](securing-kubernetes-deployments/page-26.md)
+  * [Page 25](securing-kubernetes-deployments/page-25.md)
+  * [Page 24](securing-kubernetes-deployments/page-24.md)
+* [SECRETS MANAGEMENT WITH VAULT](secrets-management-with-vault/README.md)
+  * [Page 32](secrets-management-with-vault/page-32.md)
+  * [Page 31](secrets-management-with-vault/page-31.md)
+  * [Page 30](secrets-management-with-vault/page-30.md)
+  * [Page 29](secrets-management-with-vault/page-29.md)
+  * [Page 28](secrets-management-with-vault/page-28.md)
+* [RUNTIME SECURITY MONITORING AND REMEDIATION](runtime-security-monitoring-and-remediation.md)
+* [Page 37](page-37.md)
+* [Page 36](page-36.md)
+* [Page 35](page-35.md)
+* [Page 35](page-35-1.md)
+* [Page 34](page-34.md)
+* [Page 33](page-33.md)
