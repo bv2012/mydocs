@@ -51,11 +51,6 @@
 
 * [Page 20](lfs269-gitops-cd-on-k8s-flux/page-20.md)
 
-***
-
-* [Page 3](page-3.md)
-* [Page 2](page-2.md)
-
 ## LFS262 Implementing DevSecOps
 
 * [WHAT IS DEVSECOPS?](lfs262-implementing-devsecops/page-21.md)
