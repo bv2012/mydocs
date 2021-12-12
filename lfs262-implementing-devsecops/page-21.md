@@ -22,7 +22,7 @@ The most popular model used for developing and delivering software resembles a w
 
 
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (3).png>)
 
 **The Waterfall Model: Requirements, Design, Implementation, Verification, Maintenance**\
 \
@@ -32,7 +32,7 @@ This model commonly results in longer deployment cycles, longer feedback loops, 
 
 Henry Ford’s assembly line sped up the process of manufacturing, which was then iterated and perfected by Toyota with the so-called[ Toyota Production System (TPS)](https://en.wikipedia.org/wiki/Toyota\_Production\_System). This system undoubtedly transformed automobile manufacturing.
 
-![](../../.gitbook/assets/image.png)**Iterative Development**
+![](../.gitbook/assets/image.png)**Iterative Development**
 
 The principles and practices that evolved as part of this system, including "just-in-time" production, continuous feedback, and improvement ([Kaizen](https://en.wikipedia.org/wiki/Kaizen)), were then adapted by the wider manufacturing industry and, later, the software industry. This led to the development of [Lean IT](https://en.wikipedia.org/wiki/Lean\_IT) and, subsequently, to the creation of the [Agile Manifesto](https://agilemanifesto.org) in 2001, which resulted in development processes being sped up significantly.
 
