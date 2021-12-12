@@ -54,4 +54,8 @@
 
 ## LFS262 Implementing DevSecOps
 
-* [Page 21](lfs262-implementing-devsecops/page-21.md)
+* [WHAT IS DEVSECOPS?](lfs262-implementing-devsecops/what-is-devsecops/README.md)
+  * [DevSecOps](lfs262-implementing-devsecops/what-is-devsecops/devsecops.md)
+  * [Understanding Modern Applications](lfs262-implementing-devsecops/what-is-devsecops/understanding-modern-applications.md)
+  * [Application Security Risks](lfs262-implementing-devsecops/what-is-devsecops/application-security-risks.md)
+* [Page 2](lfs262-implementing-devsecops/page-2.md)
