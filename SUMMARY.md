@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Welcome!](README.md)
-  * [Page 1](welcome/page-1.md)
 
 ## LFS268 CI/CD with Jenkins X
 
@@ -103,10 +102,5 @@
   * [Page 30](secrets-management-with-vault/page-30.md)
   * [Page 29](secrets-management-with-vault/page-29.md)
   * [Page 28](secrets-management-with-vault/page-28.md)
-* [RUNTIME SECURITY MONITORING AND REMEDIATION](runtime-security-monitoring-and-remediation.md)
-* [Page 37](page-37.md)
-* [Page 36](page-36.md)
-* [Page 35](page-35.md)
-* [Page 35](page-35-1.md)
-* [Page 34](page-34.md)
-* [Page 33](page-33.md)
+* [RUNTIME SECURITY MONITORING AND REMEDIATION](runtime-security-monitoring-and-remediation/README.md)
+  * [Page 33](runtime-security-monitoring-and-remediation/page-33.md)
