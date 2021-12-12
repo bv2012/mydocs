@@ -45,6 +45,8 @@
 
 ## LFS267 Jenkins Essentials
 
+* [Running Jenkins on Kubernetes](lfs267-jenkins-essentials/running-jenkins-on-kubernetes.md)
+* [Installing Jenkins on Kubernetes](lfs267-jenkins-essentials/installing-jenkins-on-kubernetes.md)
 * [Page 19](lfs267-jenkins-essentials/page-19.md)
 
 ## LFS269 GitOps CD on K8s Flux
